@@ -122,7 +122,7 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 a { text-decoration: none; }
@@ -433,14 +433,15 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
-  padding-bottom: 4px;
-  padding-left: 7px;
+  gap: 30px;
+  padding-bottom: 8px;
+  padding-left: 10px;
 }
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 20px;
+  font-size: 30px;
+
 }
 
 
